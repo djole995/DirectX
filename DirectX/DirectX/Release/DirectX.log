@@ -1,0 +1,62 @@
+﻿Build started 17.3.2017 0:50:28.
+     1>Project "C:\Users\Milan\Documents\Visual Studio 2010\Projects\DirectX\DirectX\DirectX.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DirectX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\DirectX.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DirectX.cpp
+         DirectX.cpp
+     1>c:\users\milan\documents\visual studio 2010\projects\directx\directx\GenSinus.h(73): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\milan\documents\visual studio 2010\projects\directx\directx\GenSinus.h(79): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>c:\users\milan\documents\visual studio 2010\projects\directx\directx\GenSinus.h(81): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>c:\users\milan\documents\visual studio 2010\projects\directx\directx\GenSinus.h(83): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>c:\users\milan\documents\visual studio 2010\projects\directx\directx\GenSinus.h(85): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>DirectX.cpp(157): warning C4305: 'initializing' : truncation from 'D3DCOLOR' to 'float'
+     1>DirectX.cpp(160): warning C4305: 'initializing' : truncation from 'D3DCOLOR' to 'float'
+     1>DirectX.cpp(161): warning C4305: 'initializing' : truncation from 'D3DCOLOR' to 'float'
+     1>DirectX.cpp(164): warning C4305: 'initializing' : truncation from 'D3DCOLOR' to 'float'
+     1>DirectX.cpp(171): warning C4305: 'initializing' : truncation from 'D3DCOLOR' to 'float'
+     1>DirectX.cpp(173): warning C4305: 'initializing' : truncation from 'D3DCOLOR' to 'float'
+     1>DirectX.cpp(356): warning C4101: 'pVoid' : unreferenced local variable
+     1>DirectX.cpp(663): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>DirectX.cpp(663): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>DirectX.cpp(663): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>DirectX.cpp(470): warning C4101: 'pVoid' : unreferenced local variable
+     1>DirectX.cpp(829): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>DirectX.cpp(834): warning C4305: '=' : truncation from 'double' to 'float'
+     1>DirectX.cpp(876): warning C4018: '<' : signed/unsigned mismatch
+     1>DirectX.cpp(894): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>DirectX.cpp(896): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DirectX.cpp(897): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>DirectX.cpp(897): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>DirectX.cpp(901): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>DirectX.cpp(925): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DirectX.cpp(932): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DirectX.cpp(941): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DirectX.cpp(948): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DirectX.cpp(955): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>DirectX.cpp(958): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DirectX.cpp(965): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DirectX.cpp(970): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>DirectX.cpp(973): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Milan\Documents\Visual Studio 2010\Projects\DirectX\Release\DirectX.exe" /INCREMENTAL:NO /NOLOGO d3d9.lib d3dx9.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DirectX.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Milan\Documents\Visual Studio 2010\Projects\DirectX\Release\DirectX.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Milan\Documents\Visual Studio 2010\Projects\DirectX\Release\DirectX.lib" /MACHINE:X86 Release\DirectX.res
+         Release\AppSound.obj
+         Release\DirectX.obj
+         Release\Shapes.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         DirectX.vcxproj -> C:\Users\Milan\Documents\Visual Studio 2010\Projects\DirectX\Release\DirectX.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Milan\Documents\Visual Studio 2010\Projects\DirectX\Release\DirectX.exe;#1" /manifest Release\DirectX.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\DirectX.unsuccessfulbuild".
+         Touching "Release\DirectX.lastbuildstate".
+     1>Done Building Project "C:\Users\Milan\Documents\Visual Studio 2010\Projects\DirectX\DirectX\DirectX.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.71
